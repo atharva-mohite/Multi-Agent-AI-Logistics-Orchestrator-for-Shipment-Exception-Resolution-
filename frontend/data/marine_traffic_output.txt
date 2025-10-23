@@ -1,0 +1,158 @@
+MARINE TRAFFIC TOOL OUTPUT
+==========================
+Real-time Vessel Tracking & Density Analysis
+Data Source: AIS Global Network
+Timestamp: October 22, 2025 14:32:00 UTC
+
+CURRENT VESSEL DENSITY ANALYSIS
+--------------------------------
+
+Route 1: Northern Atlantic Corridor
+------------------------------------
+Active Vessels (50nm radius scan):
+- Total vessels: 12
+- Container ships: 4
+- Bulk carriers: 3  
+- Tankers: 2
+- Passenger vessels: 1
+- Fishing vessels: 2
+
+Vessel Details:
+1. MV Northern Star (Container) - Speed: 18.5 kt, Course: 085°
+2. MT Crude Spirit (Tanker) - Speed: 14.0 kt, Course: 270°
+3. MV Global Trader (Bulk) - Speed: 12.5 kt, Course: 095°
+4. MS Ocean Explorer (Passenger) - Speed: 20.0 kt, Course: 180°
+
+Traffic Pattern: Light, well-spaced
+Closest Point of Approach: 2.3 nm (safe)
+Collision Risk: LOW
+
+Route 2: Mid-Atlantic Corridor  
+-------------------------------
+Active Vessels (50nm radius scan):
+- Total vessels: 28
+- Container ships: 12
+- Bulk carriers: 8
+- Tankers: 5
+- RoRo vessels: 2
+- Research vessel: 1
+
+Notable Formations:
+- Container convoy eastbound (6 vessels)
+- Speed: 16-18 knots
+- Spacing: 1.5 nm between vessels
+- Organized traffic flow
+
+Traffic Pattern: Moderate, organized lanes
+Lane Separation: Active and monitored
+VTS Coverage: Available
+Collision Risk: LOW to MODERATE
+
+Route 3: Southern Atlantic Corridor
+------------------------------------
+Active Vessels (50nm radius scan):
+- Total vessels: 45
+- Container ships: 18
+- Bulk carriers: 12
+- Tankers: 8
+- Car carriers: 4
+- Naval vessels: 2
+- Cruise ship: 1
+
+High Density Areas:
+- Gibraltar approach: 22 vessels queuing
+- Strait passage: 1-2 hour delays expected
+- Mandatory reporting zone active
+- Speed restrictions in effect (12 kt max)
+
+Traffic Pattern: HEAVY, congested
+Separation Scheme: Mandatory compliance
+Pilot Requirements: Compulsory
+Collision Risk: MODERATE to HIGH
+
+PREDICTED TRAFFIC PATTERNS (72-HOUR FORECAST)
+----------------------------------------------
+
+October 23, 2025:
+Route 1: Decreasing to 8-10 vessels
+Route 2: Steady at 25-30 vessels
+Route 3: Increasing to 50+ vessels (weekend surge)
+
+October 24, 2025:
+Route 1: Minimal traffic (storm avoidance)
+Route 2: Slight increase (diverted traffic)
+Route 3: Peak congestion expected
+
+October 25, 2025:
+Route 1: Very light (5-7 vessels)
+Route 2: Moderate (28-32 vessels)
+Route 3: Heavy (48-52 vessels)
+
+NAVIGATIONAL HAZARDS & NOTICES
+-------------------------------
+
+Active Warnings:
+1. Naval Exercise Area (38°N, 25°W)
+   - Radius: 20 nautical miles
+   - Active: Oct 23-25
+   - AVOID - Use alternate routing
+
+2. Fishing Fleet Concentration (40°N, 15°W)
+   - Approximately 30 fishing vessels
+   - Reduced maneuverability
+   - Extra lookout recommended
+
+3. Debris Field Report (37.5°N, 30°W)
+   - Lost container sighting
+   - Partially submerged
+   - Position approximate
+
+4. Whale Migration Zone
+   - Route 1 & 2 intersection
+   - Speed restriction: 10 knots
+   - Active until November 15
+
+TRAFFIC SEPARATION SCHEMES
+--------------------------
+- Boston Approach: Active, compliant
+- Mid-Atlantic: Recommended routing
+- Gibraltar Approach: Mandatory compliance
+- Porto Approach: Pilot required >30,000 GT
+
+PORT CONGESTION STATUS
+----------------------
+Boston: Clear (2 vessels waiting)
+Porto: Clear (No waiting)
+Gibraltar: Congested (18 vessels waiting)
+Lisbon: Moderate (5 vessels waiting)
+
+HISTORICAL TRAFFIC ANALYSIS
+---------------------------
+Same period last year:
+- Route 1: 15% less traffic
+- Route 2: 5% more traffic
+- Route 3: 10% more traffic
+
+Seasonal patterns detected:
+- Post-hurricane season shift south
+- European import surge beginning
+- Container traffic up 12% YoY
+
+COMMUNICATION CHANNELS
+----------------------
+Route 1: VHF 16, 13 (calling/working)
+Route 2: VHF 16, 10 (calling/working)  
+Route 3: VHF 16, 14 (calling/working)
+Gibraltar VTS: VHF 12, 71
+Emergency: VHF 16, 2182 kHz
+
+RECOMMENDATIONS
+---------------
+1. Route 1: Clear passage, minimal interaction
+2. Route 2: Standard watchkeeping sufficient
+3. Route 3: Enhanced bridge team recommended
+
+System Status: OPERATIONAL
+Data Quality: HIGH (98% AIS coverage)
+Last Update: 2 minutes ago
+Next Update: In 5 minutes

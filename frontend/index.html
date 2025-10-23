@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Agent AI Logistics Orchestrator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Welcome Screen -->
+    <div id="welcomeScreen" class="screen active">
+        <div class="welcome-container">
+            <div class="logo-section">
+                <i class="fas fa-ship logo-icon"></i>
+                <div class="wave-animation"></div>
+            </div>
+            <h1 class="main-title">Multi-Agent AI Logistics Orchestrator</h1>
+            <h2 class="subtitle">for Shipment Exception Resolution</h2>
+            <p class="description">
+                Intelligent maritime logistics powered by collaborative AI agents. 
+                Real-time route optimization, exception handling, and predictive analytics 
+                for global shipping operations.
+            </p>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-brain"></i>
+                    <span>AI-Powered Analysis</span>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-route"></i>
+                    <span>Smart Route Planning</span>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-clock"></i>
+                    <span>Real-Time Monitoring</span>
+                </div>
+            </div>
+            <button id="startBtn" class="btn-primary">
+                <span>Start Application</span>
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Login Screen -->
+    <div id="loginScreen" class="screen">
+        <div class="login-container">
+            <div class="login-box">
+                <div class="login-header">
+                    <i class="fas fa-anchor"></i>
+                    <h2>Secure Login</h2>
+                    <p>Enter your credentials to access the logistics orchestrator</p>
+                </div>
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="email">
+                            <i class="fas fa-envelope"></i>
+                            Email Address
+                        </label>
+                        <input type="email" id="email" required placeholder="user@logistics.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">
+                            <i class="fas fa-lock"></i>
+                            Password
+                        </label>
+                        <input type="password" id="password" required placeholder="Enter your password">
+                    </div>
+                    <button type="submit" class="btn-login">
+                        <span id="loginBtnText">Sign In</span>
+                        <div class="login-loader" style="display: none;">
+                            <div class="spinner"></div>
+                        </div>
+                    </button>
+                </form>
+                <div class="login-footer">
+                    <p>Powered by Strands Agent Technology</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dashboard Screen -->
+    <div id="dashboardScreen" class="screen">
+        <!-- First View: Configuration -->
+        <div id="configView" class="dashboard-view active">
+            <header class="dashboard-header">
+                <div class="header-content">
+                    <h1>Shipment Configuration Portal</h1>
+                    <div class="header-info">
+                        <i class="fas fa-info-circle"></i>
+                        <span>Configure your shipment parameters to enable AI-powered route optimization</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="config-container">
+                <div class="config-card">
+                    <h3><i class="fas fa-cog"></i> Shipment Parameters</h3>
+                    <form id="configForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Shipment ID</label>
+                                <select id="shipmentId">
+                                    <option value="">Select Shipment</option>
+                                    <option value="CARGO-2025-11-BST-PRT">CARGO-2025-11-BST-PRT</option>
+                                    <option value="CARGO-2025-11-NYC-LIS">CARGO-2025-11-NYC-LIS</option>
+                                    <option value="CARGO-2025-11-MIA-BCN">CARGO-2025-11-MIA-BCN</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Vessel Type</label>
+                                <select id="vesselType">
+                                    <option value="container">Container Ship</option>
+                                    <option value="bulk">Bulk Carrier</option>
+                                    <option value="tanker">Tanker</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Origin Port</label>
+                                <select id="originPort">
+                                    <option value="">Select Origin</option>
+                                    <option value="boston">Boston, USA</option>
+                                    <option value="newyork">New York, USA</option>
+                                    <option value="miami">Miami, USA</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Destination Port</label>
+                                <select id="destPort">
+                                    <option value="">Select Destination</option>
+                                    <option value="porto">Porto, Spain</option>
+                                    <option value="lisbon">Lisbon, Portugal</option>
+                                    <option value="barcelona">Barcelona, Spain</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Expected Arrival Date</label>
+                                <input type="date" id="arrivalDate" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Cargo Weight (MT)</label>
+                                <input type="number" id="cargoWeight" value="45000" readonly>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-rocket"></i>
+                            Initialize AI Analysis
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second View: Main Dashboard -->
+        <div id="mainView" class="dashboard-view">
+            <!-- Top Panel: Journey Details -->
+            <div class="journey-panel">
+                <div class="journey-header">
+                    <h2><i class="fas fa-ship"></i> Journey Details</h2>
+                    <div class="datetime-display">
+                        <i class="fas fa-calendar"></i>
+                        <span id="currentDate"></span>
+                        <i class="fas fa-clock"></i>
+                        <span id="currentTime"></span>
+                    </div>
+                </div>
+                <div class="journey-info">
+                    <div class="info-item">
+                        <span class="label">Shipment ID:</span>
+                        <span class="value">CARGO-2025-11-BST-PRT</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Route:</span>
+                        <span class="value">Boston Ã¢â€ â€™ Porto</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Vessel:</span>
+                        <span class="value">MV Atlantic Pioneer</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Carrier Type:</span>
+                        <span class="value">Container Ship (Auto-selected)</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Expected Arrival:</span>
+                        <span class="value" id="expectedArrival">November 3, 2025</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Status:</span>
+                        <span class="value status-active">In Transit</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Middle Panel: Map Visualization -->
+            <div class="map-panel">
+                <div class="map-header">
+                    <h2><i class="fas fa-map-marked-alt"></i> Route Visualization</h2>
+                    <button id="startForecastBtn" class="btn-forecast">
+                        <i class="fas fa-cloud-sun"></i>
+                        Start Forecast
+                    </button>
+                </div>
+                <div id="map" class="map-container"></div>
+                <div class="route-legend">
+                    <div class="legend-item">
+                        <span class="route-line route-1"></span>
+                        <span>Route 1: Northern Atlantic (3,245 nm)</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="route-line route-2"></span>
+                        <span>Route 2: Mid-Atlantic (3,180 nm)</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="route-line route-3"></span>
+                        <span>Route 3: Southern Atlantic (3,310 nm)</span>
+                    </div>
+                </div>
+                <div class="vessel-progress">
+                    <div class="progress-header">
+                        <span><i class="fas fa-ship"></i> MV Atlantic Pioneer</span>
+                        <span id="vesselLocation">Current Section: A (0% Complete)</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                        <div class="section-marker" style="left: 0%">Boston</div>
+                        <div class="section-marker" style="left: 33.33%">A</div>
+                        <div class="section-marker" style="left: 66.66%">B</div>
+                        <div class="section-marker" style="left: 100%">Porto</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Panel: AI Agents Status -->
+            <div class="agents-panel">
+                <div class="agents-header">
+                    <h2><i class="fas fa-robot"></i> AI Agents & Tools</h2>
+                    <div class="status-indicator">
+                        <span class="pulse"></span>
+                        <span>System Active</span>
+                    </div>
+                </div>
+                <div class="agents-container">
+                    <!-- Forecast Agent -->
+                    <div class="agent-card" data-agent="forecast">
+                        <div class="agent-header">
+                            <i class="fas fa-cloud-sun agent-icon"></i>
+                            <div class="agent-info">
+                                <h4>Forecast Agent</h4>
+                                <span class="agent-status" id="forecastStatus">Idle</span>
+                            </div>
+                        </div>
+                        <div class="agent-tools">
+                            <div class="tool-item" data-tool="weather">
+                                <i class="fas fa-temperature-high"></i>
+                                <span>Weather Forecast</span>
+                            </div>
+                            <div class="tool-item" data-tool="marine">
+                                <i class="fas fa-water"></i>
+                                <span>Marine Traffic</span>
+                            </div>
+                            <div class="tool-item" data-tool="news">
+                                <i class="fas fa-newspaper"></i>
+                                <span>News Analyzer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Detection Agent -->
+                    <div class="agent-card" data-agent="detection">
+                        <div class="agent-header">
+                            <i class="fas fa-radar agent-icon"></i>
+                            <div class="agent-info">
+                                <h4>Detection Agent</h4>
+                                <span class="agent-status" id="detectionStatus">Idle</span>
+                            </div>
+                        </div>
+                        <div class="agent-tools">
+                            <div class="tool-item">
+                                <i class="fas fa-satellite"></i>
+                                <span>Vessel Data</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fas fa-file-alt"></i>
+                                <span>Crew Reports</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Deviation Detected Diagram -->
+                    <div class="deviation-diagram" id="deviationDiagram" style="display: none;">
+                        <div class="deviation-box">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <span>Deviation Detected</span>
+                            <div class="deviation-flow">
+                                <span class="flow-yes">Yes Ã¢â€ â€™</span>
+                                <span class="flow-no">No Ã¢â€ â€œ</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Analysis Agent -->
+                    <div class="agent-card" data-agent="analysis">
+                        <div class="agent-header">
+                            <i class="fas fa-chart-line agent-icon"></i>
+                            <div class="agent-info">
+                                <h4>Analysis Agent</h4>
+                                <span class="agent-status" id="analysisStatus">Idle</span>
+                            </div>
+                        </div>
+                        <div class="agent-tools">
+                            <div class="tool-item">
+                                <i class="fas fa-cloud"></i>
+                                <span>Live Weather</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fas fa-newspaper"></i>
+                                <span>News Analyzer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Resolution Agent -->
+                    <div class="agent-card" data-agent="resolution">
+                        <div class="agent-header">
+                            <i class="fas fa-tools agent-icon"></i>
+                            <div class="agent-info">
+                                <h4>Resolution Agent</h4>
+                                <span class="agent-status" id="resolutionStatus">Idle</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Port Monitor Agent -->
+                    <div class="agent-card" data-agent="portmonitor">
+                        <div class="agent-header">
+                            <i class="fas fa-anchor agent-icon"></i>
+                            <div class="agent-info">
+                                <h4>Port Monitor Agent</h4>
+                                <span class="agent-status" id="portMonitorStatus">Idle</span>
+                            </div>
+                        </div>
+                        <div class="agent-tools">
+                            <div class="tool-item">
+                                <i class="fas fa-water"></i>
+                                <span>Marine Traffic</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fas fa-clipboard-check"></i>
+                                <span>Port Status</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Communication Agent -->
+                    <div class="agent-card" data-agent="communication">
+                        <div class="agent-header">
+                            <i class="fas fa-broadcast-tower agent-icon"></i>
+                            <div class="agent-info">
+                                <h4>Communication Agent</h4>
+                                <span class="agent-status" id="communicationStatus">Idle</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Forecast Report Section -->
+            <div id="forecastReport" class="report-section" style="display: none;">
+                <div class="report-header">
+                    <h2><i class="fas fa-file-alt"></i> Agent Report</h2>
+                    <span class="report-timestamp">Generated: <span id="reportTime"></span></span>
+                </div>
+                <div class="report-content" id="forecastReportContent">
+                    <!-- Content will be loaded dynamically -->
+                </div>
+            </div>
+
+            <!-- Route Selection Panel -->
+            <div id="routeSelection" class="route-selection-section" style="display: none;">
+                <div class="selection-header">
+                    <h2><i class="fas fa-route"></i> Route Selection</h2>
+                    <span class="recommendation-badge">
+                        <i class="fas fa-star"></i> AI Recommended
+                    </span>
+                </div>
+                <div class="route-options">
+                    <div class="route-option recommended" data-route="2">
+                        <div class="route-badge">RECOMMENDED</div>
+                        <h3>Route 2: Mid-Atlantic</h3>
+                        <div class="route-details">
+                            <div class="detail-item">
+                                <i class="fas fa-ruler"></i>
+                                <span>Distance: 3,180 nm</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>ETA: Nov 3, 2025 14:00</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-cloud"></i>
+                                <span>Weather: Favorable</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-ship"></i>
+                                <span>Traffic: Moderate</span>
+                            </div>
+                        </div>
+                        <button class="btn-select-route">Select This Route</button>
+                    </div>
+                    
+                    <div class="route-option" data-route="1">
+                        <h3>Route 1: Northern Atlantic</h3>
+                        <div class="route-details">
+                            <div class="detail-item">
+                                <i class="fas fa-ruler"></i>
+                                <span>Distance: 3,245 nm</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>ETA: Nov 3, 2025 18:00</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-cloud"></i>
+                                <span>Weather: Storm Risk</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-ship"></i>
+                                <span>Traffic: Light</span>
+                            </div>
+                        </div>
+                        <button class="btn-select-route">Select This Route</button>
+                    </div>
+                    
+                    <div class="route-option" data-route="3">
+                        <h3>Route 3: Southern Atlantic</h3>
+                        <div class="route-details">
+                            <div class="detail-item">
+                                <i class="fas fa-ruler"></i>
+                                <span>Distance: 3,310 nm</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>ETA: Nov 4, 2025 06:00</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-cloud"></i>
+                                <span>Weather: Clear</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-ship"></i>
+                                <span>Traffic: Heavy</span>
+                            </div>
+                        </div>
+                        <button class="btn-select-route">Select This Route</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Agent Logs Section -->
+            <div id="agentLogs" class="logs-section">
+                <div class="logs-header">
+                    <h3><i class="fas fa-terminal"></i> Agent Activity Logs</h3>
+                    <button id="toggleLogs" class="btn-toggle-logs">
+                        <i class="fas fa-chevron-up"></i>
+                    </button>
+                </div>
+                <div class="logs-container" id="logsContainer">
+                    <pre id="logsContent"></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tool Output Modal -->
+    <div id="toolModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">Tool Output</h3>
+                <button class="modal-close" onclick="closeModal()">Ãƒâ€”</button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Content will be loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="loader-container">
+            <div class="loader"></div>
+            <p id="loadingText">Initializing AI Agents...</p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

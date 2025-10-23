@@ -1,0 +1,65 @@
+[2025-10-22 14:30:00.123] SYSTEM: Strands Agent Orchestrator v2.1 starting...
+[2025-10-22 14:30:00.456] SYSTEM: Loading configuration from /config/maritime.yaml
+[2025-10-22 14:30:00.789] SYSTEM: Initializing agent pool with 6 agents
+[2025-10-22 14:30:01.012] FORECAST_AGENT: Agent initialized with weather API key: ***
+[2025-10-22 14:30:01.234] FORECAST_AGENT: Connecting to NOAA weather service...
+[2025-10-22 14:30:01.567] DETECTION_AGENT: Agent initialized with AIS tracking enabled
+[2025-10-22 14:30:01.890] ANALYSIS_AGENT: Loading machine learning models...
+[2025-10-22 14:30:02.123] RESOLUTION_AGENT: Optimization algorithms ready
+[2025-10-22 14:30:02.456] PORT_MONITOR_AGENT: Connecting to port authority APIs...
+[2025-10-22 14:30:02.789] COMMUNICATION_AGENT: SMTP and webhook services configured
+[2025-10-22 14:30:03.000] SYSTEM: All agents initialized successfully
+
+[2025-10-22 14:32:00.000] FORECAST_AGENT: Starting weather analysis for coordinates: [42.3601, -71.0589] to [41.1579, -8.6291]
+[2025-10-22 14:32:00.234] FORECAST_AGENT: Fetching Atlantic Ocean weather data...
+[2025-10-22 14:32:00.567] FORECAST_AGENT: Processing 72-hour forecast models...
+[2025-10-22 14:32:00.890] FORECAST_AGENT: GFS model data retrieved successfully
+[2025-10-22 14:32:01.123] FORECAST_AGENT: ECMWF model data retrieved successfully
+[2025-10-22 14:32:01.456] FORECAST_AGENT: Analyzing pressure systems...
+[2025-10-22 14:32:01.789] FORECAST_AGENT: Low pressure system detected at 45°N, 50°W
+[2025-10-22 14:32:02.012] FORECAST_AGENT: Storm probability calculation: 78% for Route 1
+
+[2025-10-22 14:32:02.234] NEWS_ANALYZER: Scanning maritime news sources...
+[2025-10-22 14:32:02.567] NEWS_ANALYZER: Reuters Marine: "Porto port expansion completed"
+[2025-10-22 14:32:02.890] NEWS_ANALYZER: Lloyd's List: "Atlantic shipping lanes report normal traffic"
+[2025-10-22 14:32:03.123] NEWS_ANALYZER: MarineTraffic: "No incidents reported Boston-Porto corridor"
+
+[2025-10-22 14:32:03.456] MARINE_TRAFFIC_TOOL: Querying AIS database...
+[2025-10-22 14:32:03.789] MARINE_TRAFFIC_TOOL: Route 1: 12 vessels detected
+[2025-10-22 14:32:04.012] MARINE_TRAFFIC_TOOL: Route 2: 28 vessels detected
+[2025-10-22 14:32:04.234] MARINE_TRAFFIC_TOOL: Route 3: 45 vessels detected
+[2025-10-22 14:32:04.567] MARINE_TRAFFIC_TOOL: Calculating traffic density heat map...
+
+[2025-10-22 14:32:04.890] DETECTION_AGENT: Connecting to vessel MV Atlantic Pioneer...
+[2025-10-22 14:32:05.123] DETECTION_AGENT: AIS Signal acquired - MMSI: 123456789
+[2025-10-22 14:32:05.456] DETECTION_AGENT: Current position: 42.3601°N, 71.0589°W
+[2025-10-22 14:32:05.789] DETECTION_AGENT: Speed: 0.0 knots (At berth)
+[2025-10-22 14:32:06.012] DETECTION_AGENT: Heading: 095° (East-northeast)
+[2025-10-22 14:32:06.234] DETECTION_AGENT: Vessel status: Ready for departure
+
+[2025-10-22 14:32:06.567] ANALYSIS_AGENT: Initiating multi-factor route analysis...
+[2025-10-22 14:32:06.890] ANALYSIS_AGENT: Loading historical route performance data...
+[2025-10-22 14:32:07.123] ANALYSIS_AGENT: Applying weather impact coefficients...
+[2025-10-22 14:32:07.456] ANALYSIS_AGENT: Route 1 score: 6.2/10 (High weather risk)
+[2025-10-22 14:32:07.789] ANALYSIS_AGENT: Route 2 score: 8.7/10 (Optimal balance)
+[2025-10-22 14:32:08.012] ANALYSIS_AGENT: Route 3 score: 7.1/10 (Traffic concerns)
+
+[2025-10-22 14:32:08.234] RESOLUTION_AGENT: Evaluating optimization strategies...
+[2025-10-22 14:32:08.567] RESOLUTION_AGENT: Fuel consumption analysis completed
+[2025-10-22 14:32:08.890] RESOLUTION_AGENT: Time optimization: Route 2 saves 4 hours
+[2025-10-22 14:32:09.123] RESOLUTION_AGENT: Cost-benefit ratio calculated
+[2025-10-22 14:32:09.456] RESOLUTION_AGENT: Recommendation: Route 2 (Confidence: 94%)
+
+[2025-10-22 14:32:09.789] PORT_MONITOR_AGENT: Checking Porto port status...
+[2025-10-22 14:32:10.012] PORT_MONITOR_AGENT: Porto port operational status: NORMAL
+[2025-10-22 14:32:10.234] PORT_MONITOR_AGENT: Berth B-7 availability confirmed
+[2025-10-22 14:32:10.567] PORT_MONITOR_AGENT: No congestion detected
+[2025-10-22 14:32:10.890] PORT_MONITOR_AGENT: Pilot services available on arrival
+
+[2025-10-22 14:32:11.123] COMMUNICATION_AGENT: Preparing stakeholder notifications...
+[2025-10-22 14:32:11.456] COMMUNICATION_AGENT: Route recommendation ready for transmission
+[2025-10-22 14:32:11.789] COMMUNICATION_AGENT: Standing by for user confirmation
+
+[2025-10-22 14:32:12.012] SYSTEM: Analysis complete - all agents returning to idle state
+[2025-10-22 14:32:12.234] SYSTEM: Report generation completed
+[2025-10-22 14:32:12.567] SYSTEM: Awaiting user route selection...

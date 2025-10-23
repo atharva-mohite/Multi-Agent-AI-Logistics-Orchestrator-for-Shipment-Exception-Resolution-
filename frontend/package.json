@@ -1,0 +1,26 @@
+{
+  "name": "Shipment_Exception_Resolution",
+  "version": "1.0.0",
+  "description": "Multi-Agent AI Logistics Orchestrator for Shipment Exception Resolution",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -o",
+    "dev": "npx live-server --port=8000",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "logistics",
+    "ai",
+    "agents",
+    "maritime",
+    "shipping",
+    "route-optimization"
+  ],
+  "author": "Maritime AI Systems",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,121 @@
+Route_ID,Origin_Port,Destination_Port,Route_Type,Waypoint_IDs
+NAF_001_1,"New York, USA","Lagos, Nigeria",Alternative_1,"PORT_0001,WP_0012,WP_0013,WP_0014,PORT_0005"
+NAF_001_2,"New York, USA","Lagos, Nigeria",Alternative_2,"PORT_0001,WP_0015,WP_0016,WP_0017,PORT_0005"
+NAF_001_3,"New York, USA","Lagos, Nigeria",Alternative_3,"PORT_0001,WP_0018,WP_0019,WP_0020,PORT_0005"
+NAF_002_1,"New York, USA","Apapa, Nigeria",Alternative_1,"PORT_0001,WP_0021,WP_0022,WP_0023,PORT_0006"
+NAF_002_2,"New York, USA","Apapa, Nigeria",Alternative_2,"PORT_0001,WP_0024,WP_0025,WP_0026,PORT_0006"
+NAF_002_3,"New York, USA","Apapa, Nigeria",Alternative_3,"PORT_0001,WP_0027,WP_0028,WP_0029,PORT_0006"
+NAF_003_1,"New York, USA","Cape Town, South Africa",Alternative_1,"PORT_0001,WP_0030,WP_0031,WP_0032,PORT_0007"
+NAF_003_2,"New York, USA","Cape Town, South Africa",Alternative_2,"PORT_0001,WP_0033,WP_0034,WP_0035,PORT_0007"
+NAF_003_3,"New York, USA","Cape Town, South Africa",Alternative_3,"PORT_0001,WP_0036,WP_0037,WP_0038,PORT_0007"
+NAF_004_1,"New York, USA","Durban, South Africa",Alternative_1,"PORT_0001,WP_0039,WP_0040,WP_0041,PORT_0008"
+NAF_004_2,"New York, USA","Durban, South Africa",Alternative_2,"PORT_0001,WP_0042,WP_0043,WP_0044,PORT_0008"
+NAF_004_3,"New York, USA","Durban, South Africa",Alternative_3,"PORT_0001,WP_0045,WP_0046,WP_0047,PORT_0008"
+NAF_005_1,"Newark, USA","Lagos, Nigeria",Alternative_1,"PORT_0002,WP_0048,WP_0049,WP_0050,PORT_0005"
+NAF_005_2,"Newark, USA","Lagos, Nigeria",Alternative_2,"PORT_0002,WP_0051,WP_0052,WP_0053,PORT_0005"
+NAF_005_3,"Newark, USA","Lagos, Nigeria",Alternative_3,"PORT_0002,WP_0054,WP_0055,WP_0056,PORT_0005"
+NAF_006_1,"Newark, USA","Apapa, Nigeria",Alternative_1,"PORT_0002,WP_0057,WP_0058,WP_0059,PORT_0006"
+NAF_006_2,"Newark, USA","Apapa, Nigeria",Alternative_2,"PORT_0002,WP_0060,WP_0061,WP_0062,PORT_0006"
+NAF_006_3,"Newark, USA","Apapa, Nigeria",Alternative_3,"PORT_0002,WP_0063,WP_0064,WP_0065,PORT_0006"
+NAF_007_1,"Newark, USA","Cape Town, South Africa",Alternative_1,"PORT_0002,WP_0066,WP_0067,WP_0068,PORT_0007"
+NAF_007_2,"Newark, USA","Cape Town, South Africa",Alternative_2,"PORT_0002,WP_0069,WP_0070,WP_0071,PORT_0007"
+NAF_007_3,"Newark, USA","Cape Town, South Africa",Alternative_3,"PORT_0002,WP_0072,WP_0073,WP_0074,PORT_0007"
+NAF_008_1,"Newark, USA","Durban, South Africa",Alternative_1,"PORT_0002,WP_0075,WP_0076,WP_0077,PORT_0008"
+NAF_008_2,"Newark, USA","Durban, South Africa",Alternative_2,"PORT_0002,WP_0078,WP_0079,WP_0080,PORT_0008"
+NAF_008_3,"Newark, USA","Durban, South Africa",Alternative_3,"PORT_0002,WP_0081,WP_0082,WP_0083,PORT_0008"
+NAF_009_1,"Houston, USA","Lagos, Nigeria",Alternative_1,"PORT_0003,WP_0084,WP_0085,WP_0086,PORT_0005"
+NAF_009_2,"Houston, USA","Lagos, Nigeria",Alternative_2,"PORT_0003,WP_0087,WP_0088,WP_0089,PORT_0005"
+NAF_009_3,"Houston, USA","Lagos, Nigeria",Alternative_3,"PORT_0003,WP_0090,WP_0091,WP_0092,PORT_0005"
+NAF_010_1,"Houston, USA","Apapa, Nigeria",Alternative_1,"PORT_0003,WP_0093,WP_0094,WP_0095,PORT_0006"
+NAF_010_2,"Houston, USA","Apapa, Nigeria",Alternative_2,"PORT_0003,WP_0096,WP_0097,WP_0098,PORT_0006"
+NAF_010_3,"Houston, USA","Apapa, Nigeria",Alternative_3,"PORT_0003,WP_0099,WP_0100,WP_0101,PORT_0006"
+NAF_011_1,"Houston, USA","Cape Town, South Africa",Alternative_1,"PORT_0003,WP_0102,WP_0103,WP_0104,PORT_0007"
+NAF_011_2,"Houston, USA","Cape Town, South Africa",Alternative_2,"PORT_0003,WP_0105,WP_0106,WP_0107,PORT_0007"
+NAF_011_3,"Houston, USA","Cape Town, South Africa",Alternative_3,"PORT_0003,WP_0108,WP_0109,WP_0110,PORT_0007"
+NAF_012_1,"Houston, USA","Durban, South Africa",Alternative_1,"PORT_0003,WP_0111,WP_0112,WP_0113,PORT_0008"
+NAF_012_2,"Houston, USA","Durban, South Africa",Alternative_2,"PORT_0003,WP_0114,WP_0115,WP_0116,PORT_0008"
+NAF_012_3,"Houston, USA","Durban, South Africa",Alternative_3,"PORT_0003,WP_0117,WP_0118,WP_0119,PORT_0008"
+NAF_013_1,"Los Angeles, USA","Lagos, Nigeria",Alternative_1,"PORT_0004,WP_0120,WP_0121,WP_0122,PORT_0005"
+NAF_013_2,"Los Angeles, USA","Lagos, Nigeria",Alternative_2,"PORT_0004,WP_0123,WP_0124,WP_0125,PORT_0005"
+NAF_013_3,"Los Angeles, USA","Lagos, Nigeria",Alternative_3,"PORT_0004,WP_0126,WP_0127,WP_0128,PORT_0005"
+NAF_014_1,"Los Angeles, USA","Apapa, Nigeria",Alternative_1,"PORT_0004,WP_0129,WP_0130,WP_0131,PORT_0006"
+NAF_014_2,"Los Angeles, USA","Apapa, Nigeria",Alternative_2,"PORT_0004,WP_0132,WP_0133,WP_0134,PORT_0006"
+NAF_014_3,"Los Angeles, USA","Apapa, Nigeria",Alternative_3,"PORT_0004,WP_0135,WP_0136,WP_0137,PORT_0006"
+NAF_015_1,"Los Angeles, USA","Cape Town, South Africa",Alternative_1,"PORT_0004,WP_0138,WP_0139,WP_0140,PORT_0007"
+NAF_015_2,"Los Angeles, USA","Cape Town, South Africa",Alternative_2,"PORT_0004,WP_0141,WP_0142,WP_0143,PORT_0007"
+NAF_015_3,"Los Angeles, USA","Cape Town, South Africa",Alternative_3,"PORT_0004,WP_0144,WP_0145,WP_0146,PORT_0007"
+NAF_016_1,"Los Angeles, USA","Durban, South Africa",Alternative_1,"PORT_0004,WP_0147,WP_0148,WP_0149,PORT_0008"
+NAF_016_2,"Los Angeles, USA","Durban, South Africa",Alternative_2,"PORT_0004,WP_0150,WP_0151,WP_0152,PORT_0008"
+NAF_016_3,"Los Angeles, USA","Durban, South Africa",Alternative_3,"PORT_0004,WP_0153,WP_0154,WP_0155,PORT_0008"
+AFE_017_1,"Lagos, Nigeria","Rotterdam, Netherlands",Alternative_1,route_waypoints
+AFE_017_2,"Lagos, Nigeria","Rotterdam, Netherlands",Alternative_2,route_waypoints
+AFE_017_3,"Lagos, Nigeria","Rotterdam, Netherlands",Alternative_3,route_waypoints
+AFE_018_1,"Lagos, Nigeria","Amsterdam, Netherlands",Alternative_1,route_waypoints
+AFE_018_2,"Lagos, Nigeria","Amsterdam, Netherlands",Alternative_2,route_waypoints
+AFE_018_3,"Lagos, Nigeria","Amsterdam, Netherlands",Alternative_3,route_waypoints
+AFE_019_1,"Lagos, Nigeria","Southampton, UK",Alternative_1,route_waypoints
+AFE_019_2,"Lagos, Nigeria","Southampton, UK",Alternative_2,route_waypoints
+AFE_019_3,"Lagos, Nigeria","Southampton, UK",Alternative_3,route_waypoints
+AFE_020_1,"Apapa, Nigeria","Rotterdam, Netherlands",Alternative_1,route_waypoints
+AFE_020_2,"Apapa, Nigeria","Rotterdam, Netherlands",Alternative_2,route_waypoints
+AFE_020_3,"Apapa, Nigeria","Rotterdam, Netherlands",Alternative_3,route_waypoints
+AFE_021_1,"Apapa, Nigeria","Amsterdam, Netherlands",Alternative_1,route_waypoints
+AFE_021_2,"Apapa, Nigeria","Amsterdam, Netherlands",Alternative_2,route_waypoints
+AFE_021_3,"Apapa, Nigeria","Amsterdam, Netherlands",Alternative_3,route_waypoints
+AFE_022_1,"Apapa, Nigeria","Southampton, UK",Alternative_1,route_waypoints
+AFE_022_2,"Apapa, Nigeria","Southampton, UK",Alternative_2,route_waypoints
+AFE_022_3,"Apapa, Nigeria","Southampton, UK",Alternative_3,route_waypoints
+AFE_023_1,"Cape Town, South Africa","Rotterdam, Netherlands",Alternative_1,route_waypoints
+AFE_023_2,"Cape Town, South Africa","Rotterdam, Netherlands",Alternative_2,route_waypoints
+AFE_023_3,"Cape Town, South Africa","Rotterdam, Netherlands",Alternative_3,route_waypoints
+AFE_024_1,"Cape Town, South Africa","Amsterdam, Netherlands",Alternative_1,route_waypoints
+AFE_024_2,"Cape Town, South Africa","Amsterdam, Netherlands",Alternative_2,route_waypoints
+AFE_024_3,"Cape Town, South Africa","Amsterdam, Netherlands",Alternative_3,route_waypoints
+AFE_025_1,"Cape Town, South Africa","Southampton, UK",Alternative_1,route_waypoints
+AFE_025_2,"Cape Town, South Africa","Southampton, UK",Alternative_2,route_waypoints
+AFE_025_3,"Cape Town, South Africa","Southampton, UK",Alternative_3,route_waypoints
+AFE_026_1,"Durban, South Africa","Rotterdam, Netherlands",Alternative_1,route_waypoints
+AFE_026_2,"Durban, South Africa","Rotterdam, Netherlands",Alternative_2,route_waypoints
+AFE_026_3,"Durban, South Africa","Rotterdam, Netherlands",Alternative_3,route_waypoints
+AFE_027_1,"Durban, South Africa","Amsterdam, Netherlands",Alternative_1,route_waypoints
+AFE_027_2,"Durban, South Africa","Amsterdam, Netherlands",Alternative_2,route_waypoints
+AFE_027_3,"Durban, South Africa","Amsterdam, Netherlands",Alternative_3,route_waypoints
+AFE_028_1,"Durban, South Africa","Southampton, UK",Alternative_1,route_waypoints
+AFE_028_2,"Durban, South Africa","Southampton, UK",Alternative_2,route_waypoints
+AFE_028_3,"Durban, South Africa","Southampton, UK",Alternative_3,route_waypoints
+ENA_029_1,"Rotterdam, Netherlands","Rotterdam, Netherlands",Alternative_1,route_waypoints
+ENA_029_2,"Rotterdam, Netherlands","Rotterdam, Netherlands",Alternative_2,route_waypoints
+ENA_029_3,"Rotterdam, Netherlands","Rotterdam, Netherlands",Alternative_3,route_waypoints
+ENA_030_1,"Rotterdam, Netherlands","Rotterdam, Netherlands",Alternative_1,route_waypoints
+ENA_030_2,"Rotterdam, Netherlands","Rotterdam, Netherlands",Alternative_2,route_waypoints
+ENA_030_3,"Rotterdam, Netherlands","Rotterdam, Netherlands",Alternative_3,route_waypoints
+ENA_031_1,"Rotterdam, Netherlands","Rotterdam, Netherlands",Alternative_1,route_waypoints
+ENA_031_2,"Rotterdam, Netherlands","Rotterdam, Netherlands",Alternative_2,route_waypoints
+ENA_031_3,"Rotterdam, Netherlands","Rotterdam, Netherlands",Alternative_3,route_waypoints
+ENA_032_1,"Rotterdam, Netherlands","Rotterdam, Netherlands",Alternative_1,route_waypoints
+ENA_032_2,"Rotterdam, Netherlands","Rotterdam, Netherlands",Alternative_2,route_waypoints
+ENA_032_3,"Rotterdam, Netherlands","Rotterdam, Netherlands",Alternative_3,route_waypoints
+ENA_033_1,"Amsterdam, Netherlands","Amsterdam, Netherlands",Alternative_1,route_waypoints
+ENA_033_2,"Amsterdam, Netherlands","Amsterdam, Netherlands",Alternative_2,route_waypoints
+ENA_033_3,"Amsterdam, Netherlands","Amsterdam, Netherlands",Alternative_3,route_waypoints
+ENA_034_1,"Amsterdam, Netherlands","Amsterdam, Netherlands",Alternative_1,route_waypoints
+ENA_034_2,"Amsterdam, Netherlands","Amsterdam, Netherlands",Alternative_2,route_waypoints
+ENA_034_3,"Amsterdam, Netherlands","Amsterdam, Netherlands",Alternative_3,route_waypoints
+ENA_035_1,"Amsterdam, Netherlands","Amsterdam, Netherlands",Alternative_1,route_waypoints
+ENA_035_2,"Amsterdam, Netherlands","Amsterdam, Netherlands",Alternative_2,route_waypoints
+ENA_035_3,"Amsterdam, Netherlands","Amsterdam, Netherlands",Alternative_3,route_waypoints
+ENA_036_1,"Amsterdam, Netherlands","Amsterdam, Netherlands",Alternative_1,route_waypoints
+ENA_036_2,"Amsterdam, Netherlands","Amsterdam, Netherlands",Alternative_2,route_waypoints
+ENA_036_3,"Amsterdam, Netherlands","Amsterdam, Netherlands",Alternative_3,route_waypoints
+ENA_037_1,"Southampton, UK","Southampton, UK",Alternative_1,route_waypoints
+ENA_037_2,"Southampton, UK","Southampton, UK",Alternative_2,route_waypoints
+ENA_037_3,"Southampton, UK","Southampton, UK",Alternative_3,route_waypoints
+ENA_038_1,"Southampton, UK","Southampton, UK",Alternative_1,route_waypoints
+ENA_038_2,"Southampton, UK","Southampton, UK",Alternative_2,route_waypoints
+ENA_038_3,"Southampton, UK","Southampton, UK",Alternative_3,route_waypoints
+ENA_039_1,"Southampton, UK","Southampton, UK",Alternative_1,route_waypoints
+ENA_039_2,"Southampton, UK","Southampton, UK",Alternative_2,route_waypoints
+ENA_039_3,"Southampton, UK","Southampton, UK",Alternative_3,route_waypoints
+ENA_040_1,"Southampton, UK","Southampton, UK",Alternative_1,route_waypoints
+ENA_040_2,"Southampton, UK","Southampton, UK",Alternative_2,route_waypoints
+ENA_040_3,"Southampton, UK","Southampton, UK",Alternative_3,route_waypoints

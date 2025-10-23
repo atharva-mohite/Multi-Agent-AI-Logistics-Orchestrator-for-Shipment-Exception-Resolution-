@@ -1,0 +1,111 @@
+CARRIER_ID,CARRIER_NAME,ORIGIN_PORT,DESTINATION_PORT,AVG_SPEED_KNOTS,SERVICE_TYPE
+CR_0001,HMM,"New York, USA","Newark, USA",24.81,Express
+CR_0002,MSC,"New York, USA","Houston, USA",19.89,Economy
+CR_0003,Maersk Line,"New York, USA","Los Angeles, USA",22.27,Express
+CR_0004,MSC,"New York, USA","Lagos, Nigeria",18.26,Express
+CR_0005,Maersk Line,"New York, USA","Apapa, Nigeria",18.13,Economy
+CR_0006,COSCO,"New York, USA","Cape Town, South Africa",19.83,Economy
+CR_0007,CMA CGM,"New York, USA","Durban, South Africa",20.64,Express
+CR_0008,ONE,"New York, USA","Rotterdam, Netherlands",18.91,Express
+CR_0009,ZIM,"New York, USA","Amsterdam, Netherlands",24.09,Express
+CR_0010,ONE,"New York, USA","Southampton, UK",22.23,Express
+CR_0011,MSC,"Newark, USA","New York, USA",18.77,Economy
+CR_0012,Yang Ming,"Newark, USA","Houston, USA",24.61,Standard
+CR_0013,Yang Ming,"Newark, USA","Los Angeles, USA",20.92,Economy
+CR_0014,Hapag-Lloyd,"Newark, USA","Lagos, Nigeria",23.37,Economy
+CR_0015,COSCO,"Newark, USA","Apapa, Nigeria",24.79,Standard
+CR_0016,MSC,"Newark, USA","Cape Town, South Africa",22.78,Standard
+CR_0017,Evergreen,"Newark, USA","Durban, South Africa",19.45,Express
+CR_0018,ZIM,"Newark, USA","Rotterdam, Netherlands",21.29,Economy
+CR_0019,Maersk Line,"Newark, USA","Amsterdam, Netherlands",19.99,Economy
+CR_0020,COSCO,"Newark, USA","Southampton, UK",18.87,Express
+CR_0021,Maersk Line,"Houston, USA","New York, USA",21.92,Express
+CR_0022,HMM,"Houston, USA","Newark, USA",19.36,Economy
+CR_0023,COSCO,"Houston, USA","Los Angeles, USA",19.23,Economy
+CR_0024,HMM,"Houston, USA","Lagos, Nigeria",20.14,Standard
+CR_0025,Yang Ming,"Houston, USA","Apapa, Nigeria",23.92,Economy
+CR_0026,Evergreen,"Houston, USA","Cape Town, South Africa",21.72,Standard
+CR_0027,Hapag-Lloyd,"Houston, USA","Durban, South Africa",20.06,Economy
+CR_0028,CMA CGM,"Houston, USA","Rotterdam, Netherlands",19.37,Economy
+CR_0029,ONE,"Houston, USA","Amsterdam, Netherlands",18.37,Express
+CR_0030,PIL,"Houston, USA","Southampton, UK",21.02,Economy
+CR_0031,CMA CGM,"Los Angeles, USA","New York, USA",19.81,Standard
+CR_0032,ZIM,"Los Angeles, USA","Newark, USA",22.24,Economy
+CR_0033,CMA CGM,"Los Angeles, USA","Houston, USA",19.25,Standard
+CR_0034,Evergreen,"Los Angeles, USA","Lagos, Nigeria",24.94,Economy
+CR_0035,MSC,"Los Angeles, USA","Apapa, Nigeria",20.11,Economy
+CR_0036,MSC,"Los Angeles, USA","Cape Town, South Africa",21.91,Standard
+CR_0037,Evergreen,"Los Angeles, USA","Durban, South Africa",24.61,Standard
+CR_0038,MSC,"Los Angeles, USA","Rotterdam, Netherlands",18.24,Standard
+CR_0039,Hapag-Lloyd,"Los Angeles, USA","Amsterdam, Netherlands",21,Economy
+CR_0040,HMM,"Los Angeles, USA","Southampton, UK",23.79,Economy
+CR_0041,ZIM,"Lagos, Nigeria","New York, USA",22.52,Economy
+CR_0042,MSC,"Lagos, Nigeria","Newark, USA",21.04,Standard
+CR_0043,COSCO,"Lagos, Nigeria","Houston, USA",23.67,Economy
+CR_0044,ONE,"Lagos, Nigeria","Los Angeles, USA",22.2,Standard
+CR_0045,Maersk Line,"Lagos, Nigeria","Apapa, Nigeria",23.18,Express
+CR_0046,Hapag-Lloyd,"Lagos, Nigeria","Cape Town, South Africa",22.81,Standard
+CR_0047,Hapag-Lloyd,"Lagos, Nigeria","Durban, South Africa",24.78,Express
+CR_0048,Maersk Line,"Lagos, Nigeria","Rotterdam, Netherlands",19.49,Express
+CR_0049,PIL,"Lagos, Nigeria","Amsterdam, Netherlands",20.71,Economy
+CR_0050,Maersk Line,"Lagos, Nigeria","Southampton, UK",22.94,Economy
+CR_0051,Yang Ming,"Apapa, Nigeria","New York, USA",23.92,Standard
+CR_0052,Maersk Line,"Apapa, Nigeria","Newark, USA",18.9,Express
+CR_0053,Evergreen,"Apapa, Nigeria","Houston, USA",22.58,Economy
+CR_0054,Yang Ming,"Apapa, Nigeria","Los Angeles, USA",18.59,Standard
+CR_0055,HMM,"Apapa, Nigeria","Lagos, Nigeria",23.8,Express
+CR_0056,ONE,"Apapa, Nigeria","Cape Town, South Africa",23.69,Economy
+CR_0057,HMM,"Apapa, Nigeria","Durban, South Africa",20.92,Economy
+CR_0058,CMA CGM,"Apapa, Nigeria","Rotterdam, Netherlands",18.99,Express
+CR_0059,COSCO,"Apapa, Nigeria","Amsterdam, Netherlands",23.41,Express
+CR_0060,Yang Ming,"Apapa, Nigeria","Southampton, UK",22.23,Economy
+CR_0061,ZIM,"Cape Town, South Africa","New York, USA",21.19,Express
+CR_0062,Maersk Line,"Cape Town, South Africa","Newark, USA",24.64,Express
+CR_0063,HMM,"Cape Town, South Africa","Houston, USA",19.9,Express
+CR_0064,ZIM,"Cape Town, South Africa","Los Angeles, USA",23.4,Economy
+CR_0065,PIL,"Cape Town, South Africa","Lagos, Nigeria",24.08,Express
+CR_0066,Yang Ming,"Cape Town, South Africa","Apapa, Nigeria",23.17,Express
+CR_0067,Yang Ming,"Cape Town, South Africa","Durban, South Africa",22.15,Express
+CR_0068,Yang Ming,"Cape Town, South Africa","Rotterdam, Netherlands",21.88,Economy
+CR_0069,Yang Ming,"Cape Town, South Africa","Amsterdam, Netherlands",20.48,Economy
+CR_0070,PIL,"Cape Town, South Africa","Southampton, UK",24.43,Express
+CR_0071,Hapag-Lloyd,"Durban, South Africa","New York, USA",18.38,Express
+CR_0072,Hapag-Lloyd,"Durban, South Africa","Newark, USA",22.98,Express
+CR_0073,COSCO,"Durban, South Africa","Houston, USA",21.84,Standard
+CR_0074,PIL,"Durban, South Africa","Los Angeles, USA",21.06,Standard
+CR_0075,Maersk Line,"Durban, South Africa","Lagos, Nigeria",20.99,Economy
+CR_0076,COSCO,"Durban, South Africa","Apapa, Nigeria",18.51,Economy
+CR_0077,Evergreen,"Durban, South Africa","Cape Town, South Africa",24.01,Economy
+CR_0078,COSCO,"Durban, South Africa","Rotterdam, Netherlands",22.9,Standard
+CR_0079,ONE,"Durban, South Africa","Amsterdam, Netherlands",18.34,Express
+CR_0080,MSC,"Durban, South Africa","Southampton, UK",24.76,Economy
+CR_0081,MSC,"Rotterdam, Netherlands","New York, USA",24.52,Standard
+CR_0082,Yang Ming,"Rotterdam, Netherlands","Newark, USA",20.48,Express
+CR_0083,Yang Ming,"Rotterdam, Netherlands","Houston, USA",18.18,Express
+CR_0084,ZIM,"Rotterdam, Netherlands","Los Angeles, USA",19,Express
+CR_0085,Evergreen,"Rotterdam, Netherlands","Lagos, Nigeria",19.24,Standard
+CR_0086,ZIM,"Rotterdam, Netherlands","Apapa, Nigeria",22.38,Standard
+CR_0087,Hapag-Lloyd,"Rotterdam, Netherlands","Cape Town, South Africa",19.75,Economy
+CR_0088,MSC,"Rotterdam, Netherlands","Durban, South Africa",18.28,Economy
+CR_0089,COSCO,"Rotterdam, Netherlands","Amsterdam, Netherlands",24.93,Standard
+CR_0090,CMA CGM,"Rotterdam, Netherlands","Southampton, UK",19.22,Economy
+CR_0091,Yang Ming,"Amsterdam, Netherlands","New York, USA",19.12,Express
+CR_0092,ZIM,"Amsterdam, Netherlands","Newark, USA",22.87,Express
+CR_0093,PIL,"Amsterdam, Netherlands","Houston, USA",21.87,Economy
+CR_0094,HMM,"Amsterdam, Netherlands","Los Angeles, USA",18.21,Economy
+CR_0095,MSC,"Amsterdam, Netherlands","Lagos, Nigeria",21.03,Standard
+CR_0096,Maersk Line,"Amsterdam, Netherlands","Apapa, Nigeria",20.13,Economy
+CR_0097,ONE,"Amsterdam, Netherlands","Cape Town, South Africa",20.72,Economy
+CR_0098,ONE,"Amsterdam, Netherlands","Durban, South Africa",21.55,Express
+CR_0099,Yang Ming,"Amsterdam, Netherlands","Rotterdam, Netherlands",23.51,Standard
+CR_0100,HMM,"Amsterdam, Netherlands","Southampton, UK",22.91,Standard
+CR_0101,Yang Ming,"Southampton, UK","New York, USA",20.6,Express
+CR_0102,ONE,"Southampton, UK","Newark, USA",24.46,Express
+CR_0103,Maersk Line,"Southampton, UK","Houston, USA",20.82,Economy
+CR_0104,PIL,"Southampton, UK","Los Angeles, USA",21.04,Standard
+CR_0105,CMA CGM,"Southampton, UK","Lagos, Nigeria",22.5,Economy
+CR_0106,CMA CGM,"Southampton, UK","Apapa, Nigeria",22.3,Express
+CR_0107,ONE,"Southampton, UK","Cape Town, South Africa",21.25,Standard
+CR_0108,MSC,"Southampton, UK","Durban, South Africa",22.1,Standard
+CR_0109,ONE,"Southampton, UK","Rotterdam, Netherlands",18.04,Express
+CR_0110,HMM,"Southampton, UK","Amsterdam, Netherlands",21.64,Express

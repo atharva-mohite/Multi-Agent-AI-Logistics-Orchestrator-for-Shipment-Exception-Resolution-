@@ -1,0 +1,12 @@
+PORT_LOCATION_ID,PORT_CODE,PORT_CITY,PORT_STATE_NAME,PORT_STATE,PORT_LONGITUDE,PORT_LATITUDE,PORT_TYPE
+1,NEWUS,New York,USA,US,-74.006,40.7128,International - North America
+2,NEWUS,Newark,USA,US,-74.1724,40.7357,International - North America
+3,HOUUS,Houston,USA,US,-95.3698,29.7604,International - North America
+4,LOSUS,Los Angeles,USA,US,-118.1937,33.7701,International - North America
+5,LAGNI,Lagos,Nigeria,NI,3.3792,6.5244,International - Africa
+6,APANI,Apapa,Nigeria,NI,3.3591,6.4474,International - Africa
+7,CAPSO,Cape Town,South Africa,SO,18.4241,-33.9249,International - Africa
+8,DURSO,Durban,South Africa,SO,31.0218,-29.8587,International - Africa
+9,ROTNE,Rotterdam,Netherlands,NE,4.4777,51.9244,International - Europe
+10,AMSNE,Amsterdam,Netherlands,NE,4.9041,52.3676,International - Europe
+11,SOUUK,Southampton,UK,UK,-1.4044,50.9097,International - Europe

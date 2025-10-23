@@ -1,0 +1,372 @@
+Waypoint_ID,Waypoint_Type,Port_Name,Latitude,Longitude,Region
+PORT_0001,Port,"New York, USA",40.7128,-74.006,North America
+PORT_0002,Port,"Newark, USA",40.7357,-74.1724,North America
+PORT_0003,Port,"Houston, USA",29.7604,-95.3698,North America
+PORT_0004,Port,"Los Angeles, USA",33.7701,-118.1937,North America
+PORT_0005,Port,"Lagos, Nigeria",6.5244,3.3792,Africa
+PORT_0006,Port,"Apapa, Nigeria",6.4474,3.3591,Africa
+PORT_0007,Port,"Cape Town, South Africa",-33.9249,18.4241,Africa
+PORT_0008,Port,"Durban, South Africa",-29.8587,31.0218,Africa
+PORT_0009,Port,"Rotterdam, Netherlands",51.9244,4.4777,Europe
+PORT_0010,Port,"Amsterdam, Netherlands",52.3676,4.9041,Europe
+PORT_0011,Port,"Southampton, UK",50.9097,-1.4044,Europe
+WP_0012,Intermediate,,25,-50,Atlantic Ocean
+WP_0013,Intermediate,,15,-30,Atlantic Ocean
+WP_0014,Intermediate,,6.5244,-10,Atlantic Ocean
+WP_0015,Intermediate,,30,-45,Atlantic Ocean
+WP_0016,Intermediate,,20,-25,Atlantic Ocean
+WP_0017,Intermediate,,6.5244,-8,Atlantic Ocean
+WP_0018,Intermediate,,28,-48,Atlantic Ocean
+WP_0019,Intermediate,,18,-28,Atlantic Ocean
+WP_0020,Intermediate,,6.5244,-12,Atlantic Ocean
+WP_0021,Intermediate,,25,-50,Atlantic Ocean
+WP_0022,Intermediate,,15,-30,Atlantic Ocean
+WP_0023,Intermediate,,6.4474,-10,Atlantic Ocean
+WP_0024,Intermediate,,30,-45,Atlantic Ocean
+WP_0025,Intermediate,,20,-25,Atlantic Ocean
+WP_0026,Intermediate,,6.4474,-8,Atlantic Ocean
+WP_0027,Intermediate,,28,-48,Atlantic Ocean
+WP_0028,Intermediate,,18,-28,Atlantic Ocean
+WP_0029,Intermediate,,6.4474,-12,Atlantic Ocean
+WP_0030,Intermediate,,25,-50,Atlantic Ocean
+WP_0031,Intermediate,,15,-30,Atlantic Ocean
+WP_0032,Intermediate,,-33.9249,-10,Atlantic Ocean
+WP_0033,Intermediate,,30,-45,Atlantic Ocean
+WP_0034,Intermediate,,20,-25,Atlantic Ocean
+WP_0035,Intermediate,,-33.9249,-8,Atlantic Ocean
+WP_0036,Intermediate,,28,-48,Atlantic Ocean
+WP_0037,Intermediate,,18,-28,Atlantic Ocean
+WP_0038,Intermediate,,-33.9249,-12,Atlantic Ocean
+WP_0039,Intermediate,,10,-35,Atlantic Ocean
+WP_0040,Intermediate,,-20,10,Atlantic Ocean
+WP_0041,Intermediate,,-30,24,Atlantic Ocean
+WP_0042,Intermediate,,15,-30,Atlantic Ocean
+WP_0043,Intermediate,,-15,5,Atlantic Ocean
+WP_0044,Intermediate,,-26.5,27.5,Atlantic Ocean
+WP_0045,Intermediate,,20,-32.5,Atlantic Ocean
+WP_0046,Intermediate,,-10,0,Atlantic Ocean
+WP_0047,Intermediate,,-22.5,29.5,Atlantic Ocean
+WP_0048,Intermediate,,25,-50,Atlantic Ocean
+WP_0049,Intermediate,,15,-30,Atlantic Ocean
+WP_0050,Intermediate,,6.5244,-10,Atlantic Ocean
+WP_0051,Intermediate,,30,-45,Atlantic Ocean
+WP_0052,Intermediate,,20,-25,Atlantic Ocean
+WP_0053,Intermediate,,6.5244,-8,Atlantic Ocean
+WP_0054,Intermediate,,28,-48,Atlantic Ocean
+WP_0055,Intermediate,,18,-28,Atlantic Ocean
+WP_0056,Intermediate,,6.5244,-12,Atlantic Ocean
+WP_0057,Intermediate,,25,-50,Atlantic Ocean
+WP_0058,Intermediate,,15,-30,Atlantic Ocean
+WP_0059,Intermediate,,6.4474,-10,Atlantic Ocean
+WP_0060,Intermediate,,30,-45,Atlantic Ocean
+WP_0061,Intermediate,,20,-25,Atlantic Ocean
+WP_0062,Intermediate,,6.4474,-8,Atlantic Ocean
+WP_0063,Intermediate,,28,-48,Atlantic Ocean
+WP_0064,Intermediate,,18,-28,Atlantic Ocean
+WP_0065,Intermediate,,6.4474,-12,Atlantic Ocean
+WP_0066,Intermediate,,25,-50,Atlantic Ocean
+WP_0067,Intermediate,,15,-30,Atlantic Ocean
+WP_0068,Intermediate,,-33.9249,-10,Atlantic Ocean
+WP_0069,Intermediate,,30,-45,Atlantic Ocean
+WP_0070,Intermediate,,20,-25,Atlantic Ocean
+WP_0071,Intermediate,,-33.9249,-8,Atlantic Ocean
+WP_0072,Intermediate,,28,-48,Atlantic Ocean
+WP_0073,Intermediate,,18,-28,Atlantic Ocean
+WP_0074,Intermediate,,-33.9249,-12,Atlantic Ocean
+WP_0075,Intermediate,,10,-35,Atlantic Ocean
+WP_0076,Intermediate,,-20,10,Atlantic Ocean
+WP_0077,Intermediate,,-30,24,Atlantic Ocean
+WP_0078,Intermediate,,15,-30,Atlantic Ocean
+WP_0079,Intermediate,,-15,5,Atlantic Ocean
+WP_0080,Intermediate,,-26.5,27.5,Atlantic Ocean
+WP_0081,Intermediate,,20,-32.5,Atlantic Ocean
+WP_0082,Intermediate,,-10,0,Atlantic Ocean
+WP_0083,Intermediate,,-22.5,29.5,Atlantic Ocean
+WP_0084,Intermediate,,25,-50,Atlantic Ocean
+WP_0085,Intermediate,,15,-30,Atlantic Ocean
+WP_0086,Intermediate,,6.5244,-10,Atlantic Ocean
+WP_0087,Intermediate,,30,-45,Atlantic Ocean
+WP_0088,Intermediate,,20,-25,Atlantic Ocean
+WP_0089,Intermediate,,6.5244,-8,Atlantic Ocean
+WP_0090,Intermediate,,28,-48,Atlantic Ocean
+WP_0091,Intermediate,,18,-28,Atlantic Ocean
+WP_0092,Intermediate,,6.5244,-12,Atlantic Ocean
+WP_0093,Intermediate,,25,-50,Atlantic Ocean
+WP_0094,Intermediate,,15,-30,Atlantic Ocean
+WP_0095,Intermediate,,6.4474,-10,Atlantic Ocean
+WP_0096,Intermediate,,30,-45,Atlantic Ocean
+WP_0097,Intermediate,,20,-25,Atlantic Ocean
+WP_0098,Intermediate,,6.4474,-8,Atlantic Ocean
+WP_0099,Intermediate,,28,-48,Atlantic Ocean
+WP_0100,Intermediate,,18,-28,Atlantic Ocean
+WP_0101,Intermediate,,6.4474,-12,Atlantic Ocean
+WP_0102,Intermediate,,25,-50,Atlantic Ocean
+WP_0103,Intermediate,,15,-30,Atlantic Ocean
+WP_0104,Intermediate,,-33.9249,-10,Atlantic Ocean
+WP_0105,Intermediate,,30,-45,Atlantic Ocean
+WP_0106,Intermediate,,20,-25,Atlantic Ocean
+WP_0107,Intermediate,,-33.9249,-8,Atlantic Ocean
+WP_0108,Intermediate,,28,-48,Atlantic Ocean
+WP_0109,Intermediate,,18,-28,Atlantic Ocean
+WP_0110,Intermediate,,-33.9249,-12,Atlantic Ocean
+WP_0111,Intermediate,,10,-35,Atlantic Ocean
+WP_0112,Intermediate,,-20,10,Atlantic Ocean
+WP_0113,Intermediate,,-30,24,Atlantic Ocean
+WP_0114,Intermediate,,15,-30,Atlantic Ocean
+WP_0115,Intermediate,,-15,5,Atlantic Ocean
+WP_0116,Intermediate,,-26.5,27.5,Atlantic Ocean
+WP_0117,Intermediate,,20,-32.5,Atlantic Ocean
+WP_0118,Intermediate,,-10,0,Atlantic Ocean
+WP_0119,Intermediate,,-22.5,29.5,Atlantic Ocean
+WP_0120,Intermediate,,10,-85,Atlantic Ocean
+WP_0121,Intermediate,,5,-40,Atlantic Ocean
+WP_0122,Intermediate,,6.5244,-10,Atlantic Ocean
+WP_0123,Intermediate,,12,-90,Atlantic Ocean
+WP_0124,Intermediate,,8,-50,Atlantic Ocean
+WP_0125,Intermediate,,6.5244,-8,Atlantic Ocean
+WP_0126,Intermediate,,15,-80,Atlantic Ocean
+WP_0127,Intermediate,,10,-45,Atlantic Ocean
+WP_0128,Intermediate,,6.5244,-12,Atlantic Ocean
+WP_0129,Intermediate,,10,-85,Atlantic Ocean
+WP_0130,Intermediate,,5,-40,Atlantic Ocean
+WP_0131,Intermediate,,6.4474,-10,Atlantic Ocean
+WP_0132,Intermediate,,12,-90,Atlantic Ocean
+WP_0133,Intermediate,,8,-50,Atlantic Ocean
+WP_0134,Intermediate,,6.4474,-8,Atlantic Ocean
+WP_0135,Intermediate,,15,-80,Atlantic Ocean
+WP_0136,Intermediate,,10,-45,Atlantic Ocean
+WP_0137,Intermediate,,6.4474,-12,Atlantic Ocean
+WP_0138,Intermediate,,10,-85,Atlantic Ocean
+WP_0139,Intermediate,,5,-40,Atlantic Ocean
+WP_0140,Intermediate,,-33.9249,-10,Atlantic Ocean
+WP_0141,Intermediate,,12,-90,Atlantic Ocean
+WP_0142,Intermediate,,8,-50,Atlantic Ocean
+WP_0143,Intermediate,,-33.9249,-8,Atlantic Ocean
+WP_0144,Intermediate,,15,-80,Atlantic Ocean
+WP_0145,Intermediate,,10,-45,Atlantic Ocean
+WP_0146,Intermediate,,-33.9249,-12,Atlantic Ocean
+WP_0147,Intermediate,,7.5,-67.5,Atlantic Ocean
+WP_0148,Intermediate,,-10,-20,Atlantic Ocean
+WP_0149,Intermediate,,-27.5,24,Atlantic Ocean
+WP_0150,Intermediate,,7.5,-60,Atlantic Ocean
+WP_0151,Intermediate,,-15,-10,Atlantic Ocean
+WP_0152,Intermediate,,-26,27.5,Atlantic Ocean
+WP_0153,Intermediate,,10,-75,Atlantic Ocean
+WP_0154,Intermediate,,-5,-30,Atlantic Ocean
+WP_0155,Intermediate,,-25,23.5,Atlantic Ocean
+WP_0156,Intermediate,,18,-0.29664,Mediterranean/Atlantic
+WP_0157,Intermediate,,33,-6.25,Mediterranean/Atlantic
+WP_0158,Intermediate,,41.6,0.5,Mediterranean/Atlantic
+WP_0159,Intermediate,,22.4,-14,Mediterranean/Atlantic
+WP_0160,Intermediate,,36,-7,Mediterranean/Atlantic
+WP_0161,Intermediate,,44.8,-0.8,Mediterranean/Atlantic
+WP_0162,Intermediate,,27,-11.2,Mediterranean/Atlantic
+WP_0163,Intermediate,,38.5,-5,Mediterranean/Atlantic
+WP_0164,Intermediate,,46.8,0.4,Mediterranean/Atlantic
+WP_0165,Intermediate,,18,-0.29664,Mediterranean/Atlantic
+WP_0166,Intermediate,,33,-6.25,Mediterranean/Atlantic
+WP_0167,Intermediate,,41.6,0.5,Mediterranean/Atlantic
+WP_0168,Intermediate,,22.4,-14,Mediterranean/Atlantic
+WP_0169,Intermediate,,36,-7,Mediterranean/Atlantic
+WP_0170,Intermediate,,44.8,-0.8,Mediterranean/Atlantic
+WP_0171,Intermediate,,27,-11.2,Mediterranean/Atlantic
+WP_0172,Intermediate,,38.5,-5,Mediterranean/Atlantic
+WP_0173,Intermediate,,46.8,0.4,Mediterranean/Atlantic
+WP_0174,Intermediate,,18,-0.29664,Mediterranean/Atlantic
+WP_0175,Intermediate,,33,-6.25,Mediterranean/Atlantic
+WP_0176,Intermediate,,41.6,0.5,Mediterranean/Atlantic
+WP_0177,Intermediate,,22.4,-14,Mediterranean/Atlantic
+WP_0178,Intermediate,,36,-7,Mediterranean/Atlantic
+WP_0179,Intermediate,,44.8,-0.8,Mediterranean/Atlantic
+WP_0180,Intermediate,,27,-11.2,Mediterranean/Atlantic
+WP_0181,Intermediate,,38.5,-5,Mediterranean/Atlantic
+WP_0182,Intermediate,,46.8,0.4,Mediterranean/Atlantic
+WP_0183,Intermediate,,18,-0.31272,Mediterranean/Atlantic
+WP_0184,Intermediate,,33,-6.25,Mediterranean/Atlantic
+WP_0185,Intermediate,,41.6,0.5,Mediterranean/Atlantic
+WP_0186,Intermediate,,22.4,-14,Mediterranean/Atlantic
+WP_0187,Intermediate,,36,-7,Mediterranean/Atlantic
+WP_0188,Intermediate,,44.8,-0.8,Mediterranean/Atlantic
+WP_0189,Intermediate,,27,-11.2,Mediterranean/Atlantic
+WP_0190,Intermediate,,38.5,-5,Mediterranean/Atlantic
+WP_0191,Intermediate,,46.8,0.4,Mediterranean/Atlantic
+WP_0192,Intermediate,,18,-0.31272,Mediterranean/Atlantic
+WP_0193,Intermediate,,33,-6.25,Mediterranean/Atlantic
+WP_0194,Intermediate,,41.6,0.5,Mediterranean/Atlantic
+WP_0195,Intermediate,,22.4,-14,Mediterranean/Atlantic
+WP_0196,Intermediate,,36,-7,Mediterranean/Atlantic
+WP_0197,Intermediate,,44.8,-0.8,Mediterranean/Atlantic
+WP_0198,Intermediate,,27,-11.2,Mediterranean/Atlantic
+WP_0199,Intermediate,,38.5,-5,Mediterranean/Atlantic
+WP_0200,Intermediate,,46.8,0.4,Mediterranean/Atlantic
+WP_0201,Intermediate,,18,-0.31272,Mediterranean/Atlantic
+WP_0202,Intermediate,,33,-6.25,Mediterranean/Atlantic
+WP_0203,Intermediate,,41.6,0.5,Mediterranean/Atlantic
+WP_0204,Intermediate,,22.4,-14,Mediterranean/Atlantic
+WP_0205,Intermediate,,36,-7,Mediterranean/Atlantic
+WP_0206,Intermediate,,44.8,-0.8,Mediterranean/Atlantic
+WP_0207,Intermediate,,27,-11.2,Mediterranean/Atlantic
+WP_0208,Intermediate,,38.5,-5,Mediterranean/Atlantic
+WP_0209,Intermediate,,46.8,0.4,Mediterranean/Atlantic
+WP_0210,Intermediate,,18,11.73928,Mediterranean/Atlantic
+WP_0211,Intermediate,,33,-6.25,Mediterranean/Atlantic
+WP_0212,Intermediate,,41.6,0.5,Mediterranean/Atlantic
+WP_0213,Intermediate,,22.4,-14,Mediterranean/Atlantic
+WP_0214,Intermediate,,36,-7,Mediterranean/Atlantic
+WP_0215,Intermediate,,44.8,-0.8,Mediterranean/Atlantic
+WP_0216,Intermediate,,27,-11.2,Mediterranean/Atlantic
+WP_0217,Intermediate,,38.5,-5,Mediterranean/Atlantic
+WP_0218,Intermediate,,46.8,0.4,Mediterranean/Atlantic
+WP_0219,Intermediate,,18,11.73928,Mediterranean/Atlantic
+WP_0220,Intermediate,,33,-6.25,Mediterranean/Atlantic
+WP_0221,Intermediate,,41.6,0.5,Mediterranean/Atlantic
+WP_0222,Intermediate,,22.4,-14,Mediterranean/Atlantic
+WP_0223,Intermediate,,36,-7,Mediterranean/Atlantic
+WP_0224,Intermediate,,44.8,-0.8,Mediterranean/Atlantic
+WP_0225,Intermediate,,27,-11.2,Mediterranean/Atlantic
+WP_0226,Intermediate,,38.5,-5,Mediterranean/Atlantic
+WP_0227,Intermediate,,46.8,0.4,Mediterranean/Atlantic
+WP_0228,Intermediate,,18,11.73928,Mediterranean/Atlantic
+WP_0229,Intermediate,,33,-6.25,Mediterranean/Atlantic
+WP_0230,Intermediate,,41.6,0.5,Mediterranean/Atlantic
+WP_0231,Intermediate,,22.4,-14,Mediterranean/Atlantic
+WP_0232,Intermediate,,36,-7,Mediterranean/Atlantic
+WP_0233,Intermediate,,44.8,-0.8,Mediterranean/Atlantic
+WP_0234,Intermediate,,27,-11.2,Mediterranean/Atlantic
+WP_0235,Intermediate,,38.5,-5,Mediterranean/Atlantic
+WP_0236,Intermediate,,46.8,0.4,Mediterranean/Atlantic
+WP_0237,Intermediate,,13.6,41.2,Mediterranean/Atlantic
+WP_0238,Intermediate,,30.5,31,Mediterranean/Atlantic
+WP_0239,Intermediate,,38.6,15.2,Mediterranean/Atlantic
+WP_0240,Intermediate,,-25,20,Mediterranean/Atlantic
+WP_0241,Intermediate,,0,0,Mediterranean/Atlantic
+WP_0242,Intermediate,,35,-3,Mediterranean/Atlantic
+WP_0243,Intermediate,,10.2,40,Mediterranean/Atlantic
+WP_0244,Intermediate,,33.5,26,Mediterranean/Atlantic
+WP_0245,Intermediate,,40.8,10.4,Mediterranean/Atlantic
+WP_0246,Intermediate,,13.6,41.2,Mediterranean/Atlantic
+WP_0247,Intermediate,,30.5,31,Mediterranean/Atlantic
+WP_0248,Intermediate,,38.6,15.2,Mediterranean/Atlantic
+WP_0249,Intermediate,,-25,20,Mediterranean/Atlantic
+WP_0250,Intermediate,,0,0,Mediterranean/Atlantic
+WP_0251,Intermediate,,35,-3,Mediterranean/Atlantic
+WP_0252,Intermediate,,10.2,40,Mediterranean/Atlantic
+WP_0253,Intermediate,,33.5,26,Mediterranean/Atlantic
+WP_0254,Intermediate,,40.8,10.4,Mediterranean/Atlantic
+WP_0255,Intermediate,,13.6,41.2,Mediterranean/Atlantic
+WP_0256,Intermediate,,30.5,31,Mediterranean/Atlantic
+WP_0257,Intermediate,,38.6,15.2,Mediterranean/Atlantic
+WP_0258,Intermediate,,-25,20,Mediterranean/Atlantic
+WP_0259,Intermediate,,0,0,Mediterranean/Atlantic
+WP_0260,Intermediate,,35,-3,Mediterranean/Atlantic
+WP_0261,Intermediate,,10.2,40,Mediterranean/Atlantic
+WP_0262,Intermediate,,33.5,26,Mediterranean/Atlantic
+WP_0263,Intermediate,,40.8,10.4,Mediterranean/Atlantic
+WP_0264,Intermediate,,55,-25,Atlantic Ocean
+WP_0265,Intermediate,,52,-45,Atlantic Ocean
+WP_0266,Intermediate,,45,-62.006,Atlantic Ocean
+WP_0267,Intermediate,,60,-20,Atlantic Ocean
+WP_0268,Intermediate,,58,-40,Atlantic Ocean
+WP_0269,Intermediate,,50,-64.006,Atlantic Ocean
+WP_0270,Intermediate,,48,-30,Atlantic Ocean
+WP_0271,Intermediate,,40,-50,Atlantic Ocean
+WP_0272,Intermediate,,35,-59.006,Atlantic Ocean
+WP_0273,Intermediate,,55,-25,Atlantic Ocean
+WP_0274,Intermediate,,52,-45,Atlantic Ocean
+WP_0275,Intermediate,,45,-62.1724,Atlantic Ocean
+WP_0276,Intermediate,,60,-20,Atlantic Ocean
+WP_0277,Intermediate,,58,-40,Atlantic Ocean
+WP_0278,Intermediate,,50,-64.1724,Atlantic Ocean
+WP_0279,Intermediate,,48,-30,Atlantic Ocean
+WP_0280,Intermediate,,40,-50,Atlantic Ocean
+WP_0281,Intermediate,,35,-59.1724,Atlantic Ocean
+WP_0282,Intermediate,,55,-25,Atlantic Ocean
+WP_0283,Intermediate,,52,-45,Atlantic Ocean
+WP_0284,Intermediate,,45,-83.3698,Atlantic Ocean
+WP_0285,Intermediate,,60,-20,Atlantic Ocean
+WP_0286,Intermediate,,58,-40,Atlantic Ocean
+WP_0287,Intermediate,,50,-85.3698,Atlantic Ocean
+WP_0288,Intermediate,,48,-30,Atlantic Ocean
+WP_0289,Intermediate,,40,-50,Atlantic Ocean
+WP_0290,Intermediate,,35,-80.3698,Atlantic Ocean
+WP_0291,Intermediate,,40,-30,Atlantic Ocean
+WP_0292,Intermediate,,25,-70,Atlantic Ocean
+WP_0293,Intermediate,,12.5,-95,Atlantic Ocean
+WP_0294,Intermediate,,45,-37.5,Atlantic Ocean
+WP_0295,Intermediate,,22,-75,Atlantic Ocean
+WP_0296,Intermediate,,16,-99,Atlantic Ocean
+WP_0297,Intermediate,,43,-25,Atlantic Ocean
+WP_0298,Intermediate,,28,-65,Atlantic Ocean
+WP_0299,Intermediate,,19,-98.5,Atlantic Ocean
+WP_0300,Intermediate,,55,-25,Atlantic Ocean
+WP_0301,Intermediate,,52,-45,Atlantic Ocean
+WP_0302,Intermediate,,45,-62.006,Atlantic Ocean
+WP_0303,Intermediate,,60,-20,Atlantic Ocean
+WP_0304,Intermediate,,58,-40,Atlantic Ocean
+WP_0305,Intermediate,,50,-64.006,Atlantic Ocean
+WP_0306,Intermediate,,48,-30,Atlantic Ocean
+WP_0307,Intermediate,,40,-50,Atlantic Ocean
+WP_0308,Intermediate,,35,-59.006,Atlantic Ocean
+WP_0309,Intermediate,,55,-25,Atlantic Ocean
+WP_0310,Intermediate,,52,-45,Atlantic Ocean
+WP_0311,Intermediate,,45,-62.1724,Atlantic Ocean
+WP_0312,Intermediate,,60,-20,Atlantic Ocean
+WP_0313,Intermediate,,58,-40,Atlantic Ocean
+WP_0314,Intermediate,,50,-64.1724,Atlantic Ocean
+WP_0315,Intermediate,,48,-30,Atlantic Ocean
+WP_0316,Intermediate,,40,-50,Atlantic Ocean
+WP_0317,Intermediate,,35,-59.1724,Atlantic Ocean
+WP_0318,Intermediate,,55,-25,Atlantic Ocean
+WP_0319,Intermediate,,52,-45,Atlantic Ocean
+WP_0320,Intermediate,,45,-83.3698,Atlantic Ocean
+WP_0321,Intermediate,,60,-20,Atlantic Ocean
+WP_0322,Intermediate,,58,-40,Atlantic Ocean
+WP_0323,Intermediate,,50,-85.3698,Atlantic Ocean
+WP_0324,Intermediate,,48,-30,Atlantic Ocean
+WP_0325,Intermediate,,40,-50,Atlantic Ocean
+WP_0326,Intermediate,,35,-80.3698,Atlantic Ocean
+WP_0327,Intermediate,,40,-30,Atlantic Ocean
+WP_0328,Intermediate,,25,-70,Atlantic Ocean
+WP_0329,Intermediate,,12.5,-95,Atlantic Ocean
+WP_0330,Intermediate,,45,-37.5,Atlantic Ocean
+WP_0331,Intermediate,,22,-75,Atlantic Ocean
+WP_0332,Intermediate,,16,-99,Atlantic Ocean
+WP_0333,Intermediate,,43,-25,Atlantic Ocean
+WP_0334,Intermediate,,28,-65,Atlantic Ocean
+WP_0335,Intermediate,,19,-98.5,Atlantic Ocean
+WP_0336,Intermediate,,55,-25,Atlantic Ocean
+WP_0337,Intermediate,,52,-45,Atlantic Ocean
+WP_0338,Intermediate,,45,-62.006,Atlantic Ocean
+WP_0339,Intermediate,,60,-20,Atlantic Ocean
+WP_0340,Intermediate,,58,-40,Atlantic Ocean
+WP_0341,Intermediate,,50,-64.006,Atlantic Ocean
+WP_0342,Intermediate,,48,-30,Atlantic Ocean
+WP_0343,Intermediate,,40,-50,Atlantic Ocean
+WP_0344,Intermediate,,35,-59.006,Atlantic Ocean
+WP_0345,Intermediate,,55,-25,Atlantic Ocean
+WP_0346,Intermediate,,52,-45,Atlantic Ocean
+WP_0347,Intermediate,,45,-62.1724,Atlantic Ocean
+WP_0348,Intermediate,,60,-20,Atlantic Ocean
+WP_0349,Intermediate,,58,-40,Atlantic Ocean
+WP_0350,Intermediate,,50,-64.1724,Atlantic Ocean
+WP_0351,Intermediate,,48,-30,Atlantic Ocean
+WP_0352,Intermediate,,40,-50,Atlantic Ocean
+WP_0353,Intermediate,,35,-59.1724,Atlantic Ocean
+WP_0354,Intermediate,,55,-25,Atlantic Ocean
+WP_0355,Intermediate,,52,-45,Atlantic Ocean
+WP_0356,Intermediate,,45,-83.3698,Atlantic Ocean
+WP_0357,Intermediate,,60,-20,Atlantic Ocean
+WP_0358,Intermediate,,58,-40,Atlantic Ocean
+WP_0359,Intermediate,,50,-85.3698,Atlantic Ocean
+WP_0360,Intermediate,,48,-30,Atlantic Ocean
+WP_0361,Intermediate,,40,-50,Atlantic Ocean
+WP_0362,Intermediate,,35,-80.3698,Atlantic Ocean
+WP_0363,Intermediate,,40,-30,Atlantic Ocean
+WP_0364,Intermediate,,25,-70,Atlantic Ocean
+WP_0365,Intermediate,,12.5,-95,Atlantic Ocean
+WP_0366,Intermediate,,45,-37.5,Atlantic Ocean
+WP_0367,Intermediate,,22,-75,Atlantic Ocean
+WP_0368,Intermediate,,16,-99,Atlantic Ocean
+WP_0369,Intermediate,,43,-25,Atlantic Ocean
+WP_0370,Intermediate,,28,-65,Atlantic Ocean
+WP_0371,Intermediate,,19,-98.5,Atlantic Ocean

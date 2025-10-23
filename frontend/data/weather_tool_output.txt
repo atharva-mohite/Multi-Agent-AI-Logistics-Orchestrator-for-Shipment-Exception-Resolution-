@@ -1,0 +1,117 @@
+WEATHER FORECAST TOOL OUTPUT
+=============================
+Analysis Period: October 22 - November 3, 2025
+Data Source: NOAA/ECMWF Composite Model
+Resolution: 0.25° Grid
+Update Frequency: 6-hourly
+
+ROUTE 1: NORTHERN ATLANTIC (42°N to 45°N)
+------------------------------------------
+October 23, 2025:
+- Wind: NW 25-30 knots, gusting to 35
+- Waves: 3-4 meters, period 8 seconds
+- Visibility: 5-8 nautical miles
+- Pressure: 1008 mb, falling
+- Cloud Cover: 70% (Stratocumulus)
+- Precipitation: Light rain showers
+
+October 24-26, 2025:
+- STORM WARNING: Low pressure system intensifying
+- Wind: N 35-45 knots, gusts to 55
+- Waves: 5-7 meters, period 10-12 seconds
+- Visibility: <1 nautical mile in rain
+- Pressure: 985 mb (storm center)
+- Sea State: Rough to Very Rough
+- Risk Level: HIGH - Recommend avoidance
+
+October 27-29, 2025:
+- Post-frontal conditions improving
+- Wind: W 15-20 knots
+- Waves: 2-3 meters, decreasing
+- Visibility: >10 nautical miles
+- Pressure: 1015 mb, rising
+- Cloud Cover: 40% (Cumulus)
+
+October 30 - November 3, 2025:
+- High pressure ridge building
+- Wind: SW 10-15 knots
+- Waves: 1-2 meters
+- Visibility: Excellent (>15 nm)
+- Pressure: 1020 mb, steady
+- Conditions: Fair weather
+
+ROUTE 2: MID-ATLANTIC (38°N to 42°N)
+-------------------------------------
+October 23-25, 2025:
+- Wind: W 15-20 knots, steady
+- Waves: 1-2 meters, period 6 seconds
+- Visibility: 8-12 nautical miles
+- Pressure: 1012 mb, steady
+- Cloud Cover: 50% (scattered)
+- Precipitation: None expected
+- Sea State: Slight to Moderate
+
+October 26-28, 2025:
+- Wind: SW 10-15 knots
+- Waves: 1-1.5 meters
+- Visibility: >10 nautical miles
+- Pressure: 1014 mb, steady
+- Conditions: Calm seas, good visibility
+- Navigation: Optimal conditions
+
+October 29 - November 3, 2025:
+- Stable high pressure influence
+- Wind: Variable 5-12 knots
+- Waves: 0.5-1 meter
+- Visibility: Excellent throughout
+- Cloud Cover: 20-30%
+- Temperature: 16-18°C
+- Humidity: 65-70%
+
+ROUTE 3: SOUTHERN ATLANTIC (35°N to 38°N)
+------------------------------------------
+October 23 - November 3, 2025:
+- Persistent high pressure dominance
+- Wind: W/SW 5-15 knots throughout period
+- Waves: 0.5-1.5 meters (calm to slight)
+- Visibility: Consistently excellent (>15 nm)
+- Pressure: 1016-1020 mb, stable
+- Cloud Cover: 10-20% (Fair weather cumulus)
+- Temperature: 18-20°C
+- Humidity: 60-65%
+- Precipitation: None expected
+- UV Index: Moderate to High
+- Sea Surface Temperature: 19°C
+
+SPECIAL WEATHER PHENOMENA
+-------------------------
+1. Gulf Stream Effects:
+   - Enhanced wave action Route 1
+   - Temperature gradient 3-4°C
+   - Current speed: 2-3 knots eastward
+
+2. Azores High Influence:
+   - Stabilizing Route 3
+   - Subsidence limiting cloud development
+   - Extended fair weather window
+
+3. Atlantic Storm Track:
+   - Active north of 43°N
+   - Multiple systems expected
+   - Southern routes remain protected
+
+CONFIDENCE LEVELS
+-----------------
+0-48 hours: 95% confidence
+48-72 hours: 85% confidence  
+72-120 hours: 75% confidence
+>120 hours: 65% confidence
+
+RECOMMENDATIONS
+---------------
+- Route 1: AVOID during Oct 24-26 storm
+- Route 2: OPTIMAL throughout period
+- Route 3: FAVORABLE but consider distance
+
+Last Updated: October 22, 2025 14:32:00 UTC
+Next Update: October 22, 2025 20:32:00 UTC
